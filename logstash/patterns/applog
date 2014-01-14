@@ -1,0 +1,1 @@
+APPLOGMSG %{DATESTAMP:timestamp}\s+\[%{DATA:thread}\]\s+%{WORD:priority}\s+\[%{DATA:class}\](?<logmessage>(?m).*)
